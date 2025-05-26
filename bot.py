@@ -15,15 +15,14 @@ async def on_message(message):
     if message.author.bot:
         return
 
-    if message.content.startswith('aiko') or message.content.startswith('Aiko') or 'aiko' in message.content:
-        await message.channel.send(f"Aiko reporting, {message.author.mention}!")
+    if message.content.startswith('hello') or message.content.startswith('Hello') or 'hey' in message.content:
+        await message.channel.send(f"The bot reporting at your service, {message.author.mention}!")
     await bot.process_commands(message)
 
 @bot.event
 async def on_ready():
     print(f"✅ Logged in as {bot.user}(on guild: {id(bot.guilds)})")
-    print("Runing bot on discord.py version:", discord.__version__)
-    
+    print("Running bot on discord.py version:", discord.__version__)
 
 
 @bot.event
