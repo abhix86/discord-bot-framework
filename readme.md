@@ -32,7 +32,8 @@ A powerful and modular Discord bot built using `discord.py`, designed to be scal
 │   ├── greetings.py    # Welcome/greeting logic
 │   ├── utility.py      # Ping and helper slash commands
 └── README.md
-
+---
+```
 
 ## Requirements
 Python 3.8+
@@ -42,11 +43,12 @@ discord.py 2.0+ (for slash commands support)
 python-dotenv (for .env usage)
 -------
 
-Install all dependencies:
+```Install all dependencies:
 
 pip install -U discord.py python-dotenv
 pip install discord
-
+pip install discord.py
+```
 
 ⚙️ Getting Started
 Clone the repository.
@@ -59,7 +61,7 @@ DISCORD_TOKEN=your_token_here
 Run the bot:
 
 
-
+---
 python bot.py
 🧠 Notes
 All commands are modularized using Cogs for better organization.
@@ -68,6 +70,7 @@ Slash commands are registered with Discord automatically.
 
 Errors are handled gracefully with helpful responses.
 
+---
 Developer
 Made by Abhi.
 
