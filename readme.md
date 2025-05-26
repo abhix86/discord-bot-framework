@@ -41,9 +41,11 @@ Python 3.8+
 discord.py 2.0+ (for slash commands support)
 
 python-dotenv (for .env usage)
+
 -------
 
-```Install all dependencies:
+```
+Install all dependencies:
 
 pip install -U discord.py python-dotenv
 pip install discord
@@ -62,13 +64,11 @@ Run the bot:
 
 
 ---
-python bot.py
-🧠 Notes
-All commands are modularized using Cogs for better organization.
-
-Slash commands are registered with Discord automatically.
-
-Errors are handled gracefully with helpful responses.
+> python bot.py
+>🧠 Notes
+>All commands are modularized using Cogs for better organization.
+>Slash commands are registered with Discord automatically.
+>Errors are handled gracefully with helpful responses.
 
 ---
 Developer
