@@ -72,6 +72,7 @@ Run the bot:
 
 ---
 Developer
+
 Made by Abhi.
 
 Feel free to contribute or report issues!
